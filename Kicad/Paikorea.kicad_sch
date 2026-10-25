@@ -1,0 +1,9476 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "333bdadb-adb3-42ce-b922-da256c82dda9")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Connector:Conn_01x06_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Audio:AudioJack4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack4"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Audio Jack, 4 Poles (TRRS)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AudioJack4_0_1"
+				(rectangle
+					(start -6.35 -5.08)
+					(end -7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -6.35 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AudioJack4_1_1"
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DreaM117er_Library:DS_1N4148_SMD"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148_SMD"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DS_1N4148_SMD_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DS_1N4148_SMD_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.175 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Paikorea:RP2040_Zero"
+			(pin_names
+				(offset 0.635)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U1"
+				(at -9.525 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RP2040-Zero"
+				(at 13.97 17.145 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Paikorea:RP2040_Zero_UpsideDown"
+				(at 23.495 -1.905 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 7.62 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Waveshare RP2040-Zero, mounted upside-down (U1 on F, U2 on B)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RP2040_Zero_0_1"
+				(rectangle
+					(start -12.065 12.065)
+					(end 12.065 -12.065)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RP2040_Zero_1_1"
+				(pin passive line
+					(at -15.875 7.62 0)
+					(length 3.81)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.875 5.08 0)
+					(length 3.81)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.875 2.54 0)
+					(length 3.81)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.875 0 0)
+					(length 3.81)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.875 -2.54 0)
+					(length 3.81)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.875 -5.08 0)
+					(length 3.81)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -15.875 90)
+					(length 3.81)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -15.875 90)
+					(length 3.81)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.875 90)
+					(length 3.81)
+					(name "GP8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.875 90)
+					(length 3.81)
+					(name "GP9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.875 90)
+					(length 3.81)
+					(name "GP10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -15.875 90)
+					(length 3.81)
+					(name "GP11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -15.875 90)
+					(length 3.81)
+					(name "GP12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.875 -10.16 180)
+					(length 3.81)
+					(name "GP13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.875 -7.62 180)
+					(length 3.81)
+					(name "GP14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.875 -5.08 180)
+					(length 3.81)
+					(name "GP15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.875 -2.54 180)
+					(length 3.81)
+					(name "GP26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.875 0 180)
+					(length 3.81)
+					(name "GP27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.875 2.54 180)
+					(length 3.81)
+					(name "GP28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.795 15.875 270)
+					(length 3.81)
+					(name "GP29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.255 15.875 270)
+					(length 3.81)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.715 15.875 270)
+					(length 3.81)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.905 15.875 270)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 298.45 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02ec35ba-4da2-4c36-9158-8db282385255")
+	)
+	(junction
+		(at 311.785 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b8b72e3-eb92-4bc2-9c1c-b8252edd06ec")
+	)
+	(junction
+		(at 338.455 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fb379eb-56ab-453b-812d-025d32c9161f")
+	)
+	(junction
+		(at 311.785 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16c1e614-9978-4d38-bdf6-87a3588981ad")
+	)
+	(junction
+		(at 298.45 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "279b5e05-ed2f-4867-a132-e145a2aa3fa7")
+	)
+	(junction
+		(at 325.12 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33b72988-55ab-4f6b-a09d-ed2de0965bff")
+	)
+	(junction
+		(at 328.295 52.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "344f33b7-1d6c-4226-87a8-a33bf0194145")
+	)
+	(junction
+		(at 298.45 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35f4061e-e98a-4d2d-8184-cfbe4909cf01")
+	)
+	(junction
+		(at 338.455 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f39f57b-35b4-4b99-801e-956252925f2d")
+	)
+	(junction
+		(at 341.63 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45d362c7-223f-4b0d-9652-d9e86c4e5e5f")
+	)
+	(junction
+		(at 314.96 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47ce328d-fe81-4669-92e6-fdccea284016")
+	)
+	(junction
+		(at 298.45 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72825266-24ee-48ce-be37-f56b0d2167b1")
+	)
+	(junction
+		(at 325.12 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79cfde41-ab11-4fae-981b-bfbf8e6d0d6f")
+	)
+	(junction
+		(at 325.12 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79d374dd-bc57-47a8-a93e-6d3321a80a49")
+	)
+	(junction
+		(at 311.785 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8baea4d8-f6d7-4592-9544-b996d71aa031")
+	)
+	(junction
+		(at 301.625 52.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d570f5e-c73b-4322-bea5-556f7fa961a6")
+	)
+	(junction
+		(at 338.455 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8db552a2-17d2-40fc-8057-693a92c35ae1")
+	)
+	(junction
+		(at 325.12 71.755)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "922c7f6b-a61c-4c2c-a8ea-150979f5ab93")
+	)
+	(junction
+		(at 301.625 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b934892-3a72-4ff3-8ad2-4fbfa1e07424")
+	)
+	(junction
+		(at 341.63 52.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ece08b9-409a-477d-b4ce-5317a04bad42")
+	)
+	(junction
+		(at 339.09 95.885)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7af31cc-f2d2-43b8-afb6-b543ac532915")
+	)
+	(junction
+		(at 328.295 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab2f6faa-0beb-4ab3-94ab-5e69703b53a9")
+	)
+	(junction
+		(at 288.29 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b767a134-86bd-4f78-9c42-b6c7038d5618")
+	)
+	(junction
+		(at 288.29 52.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1dec68f-ccc1-4a8c-816b-f17d85f7c1ce")
+	)
+	(junction
+		(at 314.96 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5ff1372-cd2b-4c26-9ba7-34e687947456")
+	)
+	(junction
+		(at 314.96 52.705)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6691b8c-b4c0-44d3-96e6-a308d13429eb")
+	)
+	(junction
+		(at 328.295 76.8119)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cac3b22b-2fef-44bc-acd9-be9954249079")
+	)
+	(junction
+		(at 341.63 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d24d2906-6d56-4317-b23f-6c725d5d2d73")
+	)
+	(junction
+		(at 288.29 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d723fbbd-16aa-4567-ba5c-1613e620c07a")
+	)
+	(no_connect
+		(at 54.61 192.405)
+		(uuid "465eddff-be2e-4d4f-bcfb-0edd92df0111")
+	)
+	(no_connect
+		(at 133.35 189.865)
+		(uuid "65207488-a1ac-464d-ad26-d864a266f4cd")
+	)
+	(no_connect
+		(at 54.61 189.865)
+		(uuid "8ec494b9-5473-437f-bab7-5ea77124f5be")
+	)
+	(no_connect
+		(at 133.35 192.405)
+		(uuid "fbdeabcc-8a5b-42ca-9777-e4eba431794c")
+	)
+	(wire
+		(pts
+			(xy 314.96 52.705) (xy 314.96 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b240ae-413a-4df2-a26c-ae05d2f04104")
+	)
+	(wire
+		(pts
+			(xy 328.295 76.8119) (xy 328.295 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01bfb5fa-37a6-4381-abf4-eb8cd0aeb589")
+	)
+	(wire
+		(pts
+			(xy 298.45 95.885) (xy 325.12 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10018fb7-3778-4ffd-b346-03cd11682edc")
+	)
+	(wire
+		(pts
+			(xy 298.45 59.69) (xy 311.785 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17cd9d6c-8350-4d9f-afdb-c4f3eacd5dea")
+	)
+	(wire
+		(pts
+			(xy 341.63 52.705) (xy 341.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1864a122-ac59-4eb0-bf20-7f4aba263016")
+	)
+	(wire
+		(pts
+			(xy 341.63 76.835) (xy 341.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20883e3f-31c3-42e9-91c9-58741ec1311f")
+	)
+	(wire
+		(pts
+			(xy 273.05 83.82) (xy 298.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26034976-bbb9-4133-a768-a718955f13db")
+	)
+	(wire
+		(pts
+			(xy 301.625 64.77) (xy 301.625 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30fb63e6-dd5b-4656-afba-bc757b898be9")
+	)
+	(wire
+		(pts
+			(xy 325.12 83.82) (xy 338.455 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "418e6df3-1f83-4b17-b0df-4a5341d6ce8c")
+	)
+	(wire
+		(pts
+			(xy 311.785 71.755) (xy 298.45 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450446fc-a0bc-4f1e-898a-219d278ddd7d")
+	)
+	(wire
+		(pts
+			(xy 328.93 76.8119) (xy 328.295 76.8119)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c6c68d-1009-44d3-a0fb-628dbb4dcc31")
+	)
+	(wire
+		(pts
+			(xy 288.29 52.705) (xy 288.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba2fa97-9bb4-4a06-8945-f8ba4f72e6fe")
+	)
+	(wire
+		(pts
+			(xy 288.29 76.835) (xy 288.29 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c14bb45-0a9e-45ba-b288-0134a2884fb5")
+	)
+	(wire
+		(pts
+			(xy 325.12 71.755) (xy 311.785 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72239043-808a-4d7b-b2a7-e5d85113cdb0")
+	)
+	(wire
+		(pts
+			(xy 328.295 52.705) (xy 328.295 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752df2d8-a0b2-48f5-91b2-604d4fdec4b8")
+	)
+	(wire
+		(pts
+			(xy 288.29 64.77) (xy 288.29 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afea29c-9ca9-48a0-93ae-c9367bb201c4")
+	)
+	(wire
+		(pts
+			(xy 288.29 46.99) (xy 288.29 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbe2ec6-3173-4683-bc21-94bb49f1c350")
+	)
+	(wire
+		(pts
+			(xy 314.96 64.77) (xy 314.96 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1a93b0-4e86-4efb-903a-51467d2c5c33")
+	)
+	(wire
+		(pts
+			(xy 314.96 46.99) (xy 314.96 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907bc9fd-b89c-4d1c-bff8-ef8761ea3dcc")
+	)
+	(wire
+		(pts
+			(xy 328.295 64.77) (xy 328.295 76.8119)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91338920-24d3-4e3d-a0ad-a1ed9969a3f0")
+	)
+	(wire
+		(pts
+			(xy 273.05 59.69) (xy 298.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9468d812-4c07-4c8f-932b-92ab25d8089b")
+	)
+	(wire
+		(pts
+			(xy 338.455 71.755) (xy 325.12 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f0f211d-96fb-4cb0-928c-883225f7c35b")
+	)
+	(wire
+		(pts
+			(xy 314.96 76.835) (xy 314.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a89b2f7c-3a46-4c6b-906a-e9cba3f3dc9d")
+	)
+	(wire
+		(pts
+			(xy 301.625 52.705) (xy 301.625 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0550894-8337-4c2e-b891-cdc2c6c7605e")
+	)
+	(wire
+		(pts
+			(xy 338.455 59.69) (xy 351.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba037a04-2558-4896-8305-f6986677d2f0")
+	)
+	(wire
+		(pts
+			(xy 325.12 59.69) (xy 338.455 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd6734f8-4323-4e53-8708-fc69cdcc0049")
+	)
+	(wire
+		(pts
+			(xy 311.785 59.69) (xy 325.12 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1149b71-83b6-4ceb-9c4d-00f9481bfb76")
+	)
+	(wire
+		(pts
+			(xy 273.05 71.755) (xy 298.45 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e6f146-5849-4829-95d4-a22b1ca3c2f3")
+	)
+	(wire
+		(pts
+			(xy 298.45 83.82) (xy 311.785 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca68ea85-6071-4292-8aec-084001d42168")
+	)
+	(wire
+		(pts
+			(xy 328.93 88.9) (xy 328.93 76.8119)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc3d9a8d-1c4b-4046-99e6-b7e5a07e66de")
+	)
+	(wire
+		(pts
+			(xy 339.09 95.885) (xy 351.79 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f1516f-cc50-461a-b538-f6841452e3fd")
+	)
+	(wire
+		(pts
+			(xy 341.63 46.99) (xy 341.63 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da32534b-6b5b-4ce7-90d0-eb4a0a9e1d50")
+	)
+	(wire
+		(pts
+			(xy 351.79 71.755) (xy 338.455 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daec26f1-1326-4c2e-b68c-a0462237a255")
+	)
+	(wire
+		(pts
+			(xy 273.05 95.885) (xy 298.45 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc514594-2076-4809-a563-29c82fb39354")
+	)
+	(wire
+		(pts
+			(xy 301.625 46.99) (xy 301.625 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd945fe6-7ae3-4af9-8793-6b908f94152c")
+	)
+	(wire
+		(pts
+			(xy 311.785 83.82) (xy 325.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de18d417-d464-4f46-b0dd-f58793d773a5")
+	)
+	(wire
+		(pts
+			(xy 341.63 64.77) (xy 341.63 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b6235f-27c9-4bb3-992d-2b5da6354996")
+	)
+	(wire
+		(pts
+			(xy 325.12 95.885) (xy 339.09 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec04654-2363-46b6-ae3f-5e882d15070b")
+	)
+	(wire
+		(pts
+			(xy 328.295 46.99) (xy 328.295 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f70c9bc6-e494-472e-9538-f1f196f4ed75")
+	)
+	(wire
+		(pts
+			(xy 338.455 83.82) (xy 351.79 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9513ac0-f127-4591-a8b4-67c25eb376eb")
+	)
+	(global_label "row2"
+		(shape input)
+		(at 273.05 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "161231b4-e8ac-4467-bc47-7b45a2683e67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.669 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 288.29 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "20de074d-54b5-4e0f-bfe8-f26eee396c55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.29 39.9719 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 133.35 182.245 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "285f88fa-6b00-4361-8fbb-b0921db3f725")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.9366 182.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 133.35 179.705 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2a8c19fa-19c3-4fe5-b3de-de9e847c42f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.8761 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL_B"
+		(shape input)
+		(at 54.61 182.245 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2cde3c9e-a570-40ea-b202-368c8a099ee0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.1966 182.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col5"
+		(shape input)
+		(at 341.63 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "494d6413-5ec3-4792-b3a6-22fe4727ca96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.63 39.9719 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 273.05 71.755 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "520bbe73-2913-44cb-94f4-5f79df6eb6b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.669 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 328.295 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ebefdc3-977b-4029-a576-da1af763718c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 328.295 39.9719 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 273.05 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a93f2bc5-62df-42f5-867b-4c58ba6be9e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.669 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 301.625 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ae30bb4d-f98a-4cfd-b5d8-308780489c81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.625 39.9719 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 273.05 95.885 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4adff49-3965-4aff-8211-2b493bac1059")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 265.669 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 314.96 46.99 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9354b00-7222-4923-8457-9b961b794b39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 39.9719 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Data"
+		(shape input)
+		(at 233.68 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf17de1f-05e6-43b0-80db-a3ad7134b336")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.8795 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Data"
+		(shape input)
+		(at 233.68 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf367567-ee4d-42a5-8037-6bdd462b2f00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.8795 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA_B"
+		(shape input)
+		(at 54.61 179.705 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fdbe3bba-b640-4232-892d-abce4177cc1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.1361 179.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 325.12 67.945 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0046d3b4-3283-40de-875d-c566ae83330b")
+		(property "Reference" "D11"
+			(at 321.31 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 327.025 69.5325 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 330.2 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 67.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fc19ca1-cc80-4d5f-803b-ea3b9bc583b1")
+		)
+		(pin "2"
+			(uuid "ad7db9a2-f6af-4c34-99dd-9839d5ab3387")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 311.785 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00cf6238-0822-4e46-9ddb-4dc2dc9b6272")
+		(property "Reference" "D7"
+			(at 307.975 55.245 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 313.69 57.4675 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 316.865 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.785 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 311.785 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f4f8718-0987-4280-8512-1684e331e912")
+		)
+		(pin "2"
+			(uuid "9a6f67d7-ad2a-488a-8ef6-129b024006a0")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 320.04 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02c1b9c8-2bab-4dc5-8f7e-fb206f1e9870")
+		(property "Reference" "K13"
+			(at 317.5 85.725 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 320.04 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 320.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d053ae0-dc08-40d4-9fc8-55e7b33d43e6")
+		)
+		(pin "2"
+			(uuid "1e845f42-7444-41c1-acc2-e56b3b2bfea2")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 351.79 92.075 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "06520625-d777-4021-b29b-c9c18eb27119")
+		(property "Reference" "D21"
+			(at 347.98 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 353.695 93.6625 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 356.87 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 92.075 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52e0a758-2df8-485f-afdd-c85f6642a1ce")
+		)
+		(pin "2"
+			(uuid "cc27cb31-03cd-4274-b99c-b9703e207c35")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 293.37 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bba59b2-f4e6-48ff-b85c-761885031f09")
+		(property "Reference" "K22"
+			(at 290.83 85.725 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 293.37 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 293.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0dff95a2-dd71-45b8-9b86-9e2e38c52e6b")
+		)
+		(pin "2"
+			(uuid "c4b36fd0-16dc-47fb-a445-b1c011248eb0")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 233.68 109.22 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ef0261e-b94e-427d-bf8a-cfa3199e77ba")
+		(property "Reference" "#PWR037"
+			(at 229.87 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 238.76 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0447b5d-0787-4eea-89ba-92fb83f5d8ab")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 342.9 147.955 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19b6f31d-60b7-43a6-8ede-c78366752c92")
+		(property "Reference" "N10"
+			(at 346.075 145.415 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAC8 TH1.6-0.3 M2"
+			(at 346.075 147.955 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-Dual_Pad"
+			(at 342.9 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 147.955 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2f27a4e-e7aa-4f71-b6e8-46398b88d109")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "N10")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 342.9 174.625 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1be6f1b8-6662-4019-8c65-e63336a9ed81")
+		(property "Reference" "N12"
+			(at 346.075 172.085 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAC8 TH1.6-0.3 M2"
+			(at 346.075 174.625 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-Dual_Pad"
+			(at 342.9 174.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 174.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 174.625 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60757f72-e618-46af-823c-7fb92bbc1a62")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "N12")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 346.71 76.835 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f369043-bd6e-48f1-bb11-dd704c66b88f")
+		(property "Reference" "K20"
+			(at 344.17 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 346.71 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 346.71 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 76.835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f9b4a41-367f-4e0e-a63a-aff72cbb5375")
+		)
+		(pin "2"
+			(uuid "e6cc103c-0eec-4885-b270-6f28329aaf03")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack4")
+		(at 228.6 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34330073-1a8c-4065-81be-b2ad78166358")
+		(property "Reference" "J4"
+			(at 226.06 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 226.06 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:TRRS-PJ-381-BB_6P_Dual"
+			(at 228.6 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 228.6 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "R1"
+			(uuid "f91516d9-3b7f-412d-abc1-1381f4ad396e")
+		)
+		(pin "S"
+			(uuid "06da2542-6e46-4f0f-885c-625f4b09497e")
+		)
+		(pin "T"
+			(uuid "c98ab752-062d-4069-b37f-87b737333f0c")
+		)
+		(pin "R2"
+			(uuid "0765b23e-62da-453b-ab34-ba6e0b236cc8")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 298.45 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37e4ccca-44d3-40f5-bef3-d42d6be2c78c")
+		(property "Reference" "D4"
+			(at 294.64 55.245 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 300.355 57.4675 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 303.53 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d338e205-d875-4565-95b4-9837606ea70b")
+		)
+		(pin "2"
+			(uuid "b958ee4f-fe1f-479b-8c28-2154730ab509")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 346.71 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "398a0b2c-9b59-4597-ba84-dc2b9a57db88")
+		(property "Reference" "K21"
+			(at 344.17 85.725 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 346.71 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 346.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "027a217a-44e2-4e37-b1ba-bb6e0ba4eb48")
+		)
+		(pin "2"
+			(uuid "7c27fafc-cba5-4180-a444-3356b66d3578")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4068a577-85ae-4ed0-a483-4a5e3f429dfc")
+		(property "Reference" "#PWR036"
+			(at 240.03 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.855 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbed9cff-91e2-4fc6-8073-1f4099faca19")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 333.375 76.835 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40bb3d78-e0cc-482f-91f3-091b61def9c5")
+		(property "Reference" "K16"
+			(at 330.835 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 333.375 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 333.375 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 333.375 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 333.375 76.835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2072da4a-29d3-4034-9afd-e34d2d98d389")
+		)
+		(pin "2"
+			(uuid "5d0ebcc0-da43-4275-b149-d105018ae1ec")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 317.5 139.065 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42471dda-2736-402e-bd8f-e0eada3643f7")
+		(property "Reference" "N6"
+			(at 320.675 137.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.2mm"
+			(at 320.675 140.335 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-NPTHhole"
+			(at 317.5 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 139.065 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 325.12 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "466eb21a-a62b-4b0a-8eba-ae7f43c56a2e")
+		(property "Reference" "D12"
+			(at 321.31 79.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 327.025 81.5975 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 330.2 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "053ad3fc-c93e-4d94-9bd5-910a2fa20e6e")
+		)
+		(pin "2"
+			(uuid "445cc4f4-bd66-4d12-8a80-a01cf2f354ea")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 306.705 76.835 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "478919af-dd78-4a95-b05d-de491c15b589")
+		(property "Reference" "K9"
+			(at 304.165 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 306.705 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 306.705 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.705 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 306.705 76.835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21eb5909-4202-4aab-9853-8605198cd6da")
+		)
+		(pin "2"
+			(uuid "5518791b-356c-49e8-9458-27e4300119be")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 338.455 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49b8e477-61bb-4cd6-b851-10c3fb400275")
+		(property "Reference" "D14"
+			(at 334.645 55.245 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 340.36 57.4675 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 343.535 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 338.455 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 338.455 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "084be5bf-4dae-4ed1-8a8f-87699d3e5509")
+		)
+		(pin "2"
+			(uuid "9ca5a816-05ed-44c7-bd54-82d6bb18b09f")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 346.71 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4bca4915-e3c5-469c-8808-7a8344f4eff1")
+		(property "Reference" "K19"
+			(at 344.17 61.595 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 346.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 346.71 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95735ccb-e9c7-4252-8a22-61fa571adc1c")
+		)
+		(pin "2"
+			(uuid "76e31f8d-fbc2-4753-b27d-db1042a73a00")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 342.9 163.195 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c96dba3-e375-4f1c-9937-3cba1c8389cf")
+		(property "Reference" "#PWR021"
+			(at 342.9 169.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 163.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 163.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 163.195 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df7e677c-e805-4d0b-8a4e-805a2779b64f")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 339.09 92.075 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4db601b0-8150-4aa3-8f8f-d74118752177")
+		(property "Reference" "D17"
+			(at 335.28 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 340.995 93.6625 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 344.17 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 92.075 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae10efca-97c3-4f42-a8dd-194a8c546db2")
+		)
+		(pin "2"
+			(uuid "459b57df-9b78-4749-91c8-d11b974a839d")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 325.12 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "508cffe5-21c6-4ddd-a872-a7f4bae89ede")
+		(property "Reference" "D10"
+			(at 321.31 55.245 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 327.025 57.4675 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 330.2 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83f2279c-c652-4dfc-9b93-910d604a5db1")
+		)
+		(pin "2"
+			(uuid "d43a4645-36b5-476d-9e11-c3970e0c50d1")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 138.43 184.785 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "556edf20-7bdb-4149-a06c-bad34b022795")
+		(property "Reference" "J3"
+			(at 140.335 184.785 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS43-201A-S"
+			(at 140.335 187.325 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
+			(at 138.43 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 184.785 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ec5aa24-2399-4ef8-b2e8-548ce1688956")
+		)
+		(pin "2"
+			(uuid "ca5c98ed-f4d7-46ff-b9bf-2b6963f3d51c")
+		)
+		(pin "3"
+			(uuid "f66c3c69-cd83-4bdf-b1ee-0cb142d125fe")
+		)
+		(pin "4"
+			(uuid "76396046-0830-4502-b01e-820962bf34af")
+		)
+		(pin "5"
+			(uuid "9bb2af41-84da-460b-b964-8ab875e0c675")
+		)
+		(pin "6"
+			(uuid "d5278401-1064-4428-a786-f3871a5c7a1d")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 293.37 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5edb659c-0a81-40b5-8bcc-9fc4a3f59484")
+		(property "Reference" "K5"
+			(at 290.83 61.595 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 293.37 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 293.37 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db6c4174-90e7-41ae-bd1a-6bed0f8e06f8")
+		)
+		(pin "2"
+			(uuid "f1b465cc-0498-424c-983f-f6411e27e47c")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 320.04 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61138539-a150-4505-a07f-9b85161eefde")
+		(property "Reference" "K11"
+			(at 317.5 61.595 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 320.04 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 320.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b952c31-c73e-4589-aa3f-e0f521b23940")
+		)
+		(pin "2"
+			(uuid "1211d1b9-ce18-4b07-bd3d-5e770c5a9247")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 342.9 177.165 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65d61cea-51d6-43e0-bb05-03e12a127c4a")
+		(property "Reference" "#PWR022"
+			(at 342.9 183.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 177.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 177.165 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 177.165 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be642687-30ea-436f-8348-9471113a247d")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 133.35 184.785 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e5aace9-fc86-4cbf-addf-605f3872cd7e")
+		(property "Reference" "#PWR03"
+			(at 137.16 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 130.175 184.785 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 184.785 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05bfe7a7-a448-47a6-b7f2-91f3580e318d")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 317.5 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "742fdf1d-cc59-44dd-aa96-19e7577fab34")
+		(property "Reference" "N5"
+			(at 320.675 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.2mm"
+			(at 320.675 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-NPTHhole"
+			(at 317.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "N5")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "N5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 338.455 67.945 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "766a351f-23d4-49a4-8ba7-25b46e011480")
+		(property "Reference" "D15"
+			(at 334.645 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 340.36 69.5325 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 343.535 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 338.455 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 338.455 67.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c429188-b1c6-4c9b-9e06-db70c2d41e7d")
+		)
+		(pin "2"
+			(uuid "09980523-a6ed-48e1-a00f-92ec7b718256")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 73.025 120.015 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a1fbcb8-c5ec-4378-923b-5a3354b9254b")
+		(property "Reference" "#PWR025"
+			(at 73.025 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 73.025 114.935 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.025 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.025 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.025 120.015 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79d244c5-48e0-439c-845b-0fa7d04b5aa6")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 311.785 67.945 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c391154-7bc2-4e0c-a5c9-a721c9d2b851")
+		(property "Reference" "D8"
+			(at 307.975 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 313.69 69.5325 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 316.865 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.785 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 311.785 67.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c1d16010-0b4a-4031-8858-9657173789f4")
+		)
+		(pin "2"
+			(uuid "f8fca552-938a-4dee-8e24-5cb71243cfeb")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Paikorea:RP2040_Zero")
+		(at 127 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f24be7a-46fd-4a68-812d-9e7797d928bc")
+		(property "Reference" "U2"
+			(at 142.24 129.4383 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RP2040-Zero"
+			(at 140.97 118.745 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Paikorea:RP2040_Zero_UpsideDown"
+			(at 150.495 137.795 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.waveshare.com/wiki/RP2040-Zero"
+			(at 134.62 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "624b12a4-6e3b-4b84-8440-c1246e2905eb")
+		)
+		(pin "10"
+			(uuid "544fbd7d-3a8f-407c-87d7-6fb39dc4da09")
+		)
+		(pin "11"
+			(uuid "1a98b68f-8f0e-41e2-8dad-a2604d9bf82b")
+		)
+		(pin "12"
+			(uuid "130805aa-31d4-40bb-81dd-4f5d95e79381")
+		)
+		(pin "13"
+			(uuid "9176b9e0-7d4b-4456-892d-119db81cd9c0")
+		)
+		(pin "14"
+			(uuid "948a22e3-78ca-45a9-aef2-066e855a0845")
+		)
+		(pin "15"
+			(uuid "c2feeec5-a2b3-40c9-9aaf-13dfcea9b37e")
+		)
+		(pin "16"
+			(uuid "438a2276-0828-4b8a-990a-3b02dd1955c0")
+		)
+		(pin "17"
+			(uuid "70bd2630-6379-49d8-a42e-24cb93f1bf59")
+		)
+		(pin "18"
+			(uuid "12b41c3c-f07b-4cf1-b280-a42b5eb19e50")
+		)
+		(pin "19"
+			(uuid "fdf5c865-8370-4d5a-b7b0-3b3538afb928")
+		)
+		(pin "2"
+			(uuid "850dad6b-eca7-43fa-afc7-39d7c121de2f")
+		)
+		(pin "20"
+			(uuid "c5cf5897-4edf-49ae-94d2-6ee98ad2c8d0")
+		)
+		(pin "21"
+			(uuid "00c1455e-f876-4a75-96e6-4aa9c75d9a37")
+		)
+		(pin "23"
+			(uuid "932ed82d-c987-4e91-be7e-7b101fe10bf1")
+		)
+		(pin "22"
+			(uuid "af895fee-6a9a-4a83-95e7-ef5ef95701b2")
+		)
+		(pin "3"
+			(uuid "213afd8f-a09d-4c86-bb33-ffad9f052d93")
+		)
+		(pin "4"
+			(uuid "a7b09b2f-6d94-4fac-8017-5a9b4f75a258")
+		)
+		(pin "5"
+			(uuid "2938a910-568b-4ae5-8f99-61e48db09097")
+		)
+		(pin "6"
+			(uuid "be236f62-d45f-4bed-ad4f-816183de4d27")
+		)
+		(pin "7"
+			(uuid "1d95e6cd-a073-4abc-bf4f-2b614c2d622a")
+		)
+		(pin "8"
+			(uuid "cac10660-2711-4fbb-b3bd-dfc4dae53ebc")
+		)
+		(pin "9"
+			(uuid "132552b3-dd15-461a-9cd0-7bf8ace45614")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 293.37 52.705 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8120012a-618d-4d2b-b526-cc506e00d762")
+		(property "Reference" "K4"
+			(at 290.83 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 293.37 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 293.37 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 52.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c390515a-7c32-48b7-b2f5-fbac3f5d79c9")
+		)
+		(pin "2"
+			(uuid "bc7732de-940f-49e8-9afa-40196a374f18")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 333.375 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8527d05e-07c2-434d-8cb1-f235a610be9f")
+		(property "Reference" "K15"
+			(at 330.835 61.595 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 333.375 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 333.375 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 333.375 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 333.375 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb7d7d6c-43dd-4a52-87c7-80378e882d38")
+		)
+		(pin "2"
+			(uuid "ad2b381d-eeb2-4865-8876-b6d973d6a389")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 342.9 150.495 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c411781-aab1-421d-bb76-950c0738177b")
+		(property "Reference" "#PWR020"
+			(at 342.9 156.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 150.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 150.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 150.495 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2f1a4b2-9a52-4ff6-98ed-e31f93220070")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 334.01 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8eb31c35-b241-46ae-b4ee-a1c6c02682aa")
+		(property "Reference" "K17"
+			(at 331.47 85.725 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 334.01 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 334.01 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 334.01 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb30160c-57ef-47c1-8c28-428d228cef42")
+		)
+		(pin "2"
+			(uuid "2ac200b0-4ab0-4b3e-ad04-831996f53ce1")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 298.45 67.945 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "925cb46b-d1c5-4046-9dc6-7daa9faa00da")
+		(property "Reference" "D5"
+			(at 294.64 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 300.355 69.5325 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 303.53 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 67.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed77574f-ca78-4c29-8e17-9feaaa3985ef")
+		)
+		(pin "2"
+			(uuid "43d1ccae-d48d-49ea-9c71-11657cc3831c")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 342.9 137.795 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "943fb4a0-f026-4f14-b338-eaab9805839e")
+		(property "Reference" "#PWR019"
+			(at 342.9 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 137.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25c0bd96-4b37-4255-88aa-0f73f2793dc0")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 304.165 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aa6a5b8-a8d5-4272-bad4-1c40ddb34762")
+		(property "Reference" "N1"
+			(at 307.34 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.2mm"
+			(at 307.34 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-NPTHhole"
+			(at 304.165 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.165 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 304.165 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "N1")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "N1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack4")
+		(at 228.6 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c8f615a-98a9-4455-9b3c-01d133f1b624")
+		(property "Reference" "J1"
+			(at 226.06 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 226.06 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:TRRS-PJ-381-BB_6P_Dual"
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+			(at 228.6 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "R1"
+			(uuid "01793250-c1b4-46cb-ace5-abd35815a9f1")
+		)
+		(pin "S"
+			(uuid "e19e8119-f151-43ae-a2d3-50fe1ea8c6ae")
+		)
+		(pin "T"
+			(uuid "26735dfe-dd9c-4be1-b105-94fbbe13c23f")
+		)
+		(pin "R2"
+			(uuid "53f68d00-5ba8-430b-b21d-6ead2de8826d")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 338.455 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a32cdb1e-250f-4274-a822-3e8fb6ef4abc")
+		(property "Reference" "D16"
+			(at 334.645 79.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 340.36 81.5975 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 343.535 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 338.455 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 338.455 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b4d1919-b325-4a9e-bcd8-457bd51be458")
+		)
+		(pin "2"
+			(uuid "27be62dd-7e2d-477b-9bec-db1c5549fbbb")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 325.12 92.075 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a40e0a45-7ef1-4e58-b59b-501fa6d6e008")
+		(property "Reference" "D13"
+			(at 321.31 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 327.025 93.6625 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 330.2 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 325.12 92.075 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bf0760a-e6b8-407f-ad28-0d1acce391d2")
+		)
+		(pin "2"
+			(uuid "3933405f-e929-4d6f-a780-d4228be75e5c")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 135.255 120.015 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7470ac4-9d56-4d09-95da-f811e24de3e8")
+		(property "Reference" "#PWR08"
+			(at 135.255 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 135.255 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.255 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.255 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.255 120.015 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a1d8a65-e1fc-4d22-b699-cc1f05abd1f1")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 75.565 120.015 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aae1beec-9ef7-459e-84d0-e74833d1d20c")
+		(property "Reference" "#PWR010"
+			(at 75.565 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 75.565 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.565 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 75.565 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 75.565 120.015 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46043bf2-30ed-4e7f-b264-79892807679c")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 311.785 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b466ad60-7ddc-407f-9848-19207f46e8b2")
+		(property "Reference" "D9"
+			(at 307.975 79.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 313.69 81.5975 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 316.865 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.785 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 311.785 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2cf35bb5-4a1e-4343-95b7-0873ec5a21e2")
+		)
+		(pin "2"
+			(uuid "b4c20178-2db1-46df-90ac-b1f05140a7b0")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 351.79 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7a7e35d-725b-4556-9783-c98d9614e5ef")
+		(property "Reference" "D20"
+			(at 347.98 79.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 353.695 81.5975 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 356.87 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e7ce3b4-4ede-482a-b733-c23bffac1a5a")
+		)
+		(pin "2"
+			(uuid "56eaee0b-fe58-4b23-82de-bff4a870c165")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Paikorea:RP2040_Zero")
+		(at 67.31 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7bc2e3f-75a5-43a4-87e4-463d3d7c716b")
+		(property "Reference" "U1"
+			(at 82.55 129.4383 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RP2040-Zero"
+			(at 81.28 118.745 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Paikorea:RP2040_Zero_UpsideDown"
+			(at 90.805 137.795 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.waveshare.com/wiki/RP2040-Zero"
+			(at 74.93 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3506d184-f293-4487-ba85-e2bcaf90b4e6")
+		)
+		(pin "10"
+			(uuid "49d709c9-06e4-493b-a0d6-526bc471dab9")
+		)
+		(pin "11"
+			(uuid "d30634c2-82c8-4c8b-a9c4-e4e48cc026b2")
+		)
+		(pin "12"
+			(uuid "269121a2-148f-4396-a7f6-8730888a4d5c")
+		)
+		(pin "13"
+			(uuid "463b2124-f106-47c1-a5ea-f9b3bb476118")
+		)
+		(pin "14"
+			(uuid "4e65a044-f8c6-4017-a24c-436cd2f2cb6a")
+		)
+		(pin "15"
+			(uuid "a76a7c12-426a-4294-a60d-6c28753542a3")
+		)
+		(pin "16"
+			(uuid "757bb167-0c3c-40e4-b686-151778a2374a")
+		)
+		(pin "17"
+			(uuid "f67df15c-80f4-4adb-9439-61c539c75397")
+		)
+		(pin "18"
+			(uuid "6e3b4f7c-3f98-4229-a61f-c6318b4eadb1")
+		)
+		(pin "19"
+			(uuid "0b25e253-515a-4828-a458-19f2feb3b16d")
+		)
+		(pin "2"
+			(uuid "73af2ecd-c160-420a-b7a3-105cd69b0765")
+		)
+		(pin "20"
+			(uuid "6d283ccb-edae-4faf-98e8-c81d2a587350")
+		)
+		(pin "21"
+			(uuid "17b71e25-87a7-4f7b-99cd-22ddd2f503c9")
+		)
+		(pin "23"
+			(uuid "63501bee-cfa6-4f05-a63f-999b5387b47f")
+		)
+		(pin "22"
+			(uuid "8d525fed-a95c-42fc-89d0-f28dae333c79")
+		)
+		(pin "3"
+			(uuid "195be8fd-f6ac-4624-97c7-44036ae567eb")
+		)
+		(pin "4"
+			(uuid "eb97124d-f1bd-42be-9a65-3b6090503bec")
+		)
+		(pin "5"
+			(uuid "6b63cd8b-3307-441f-a03f-a8d63ba33919")
+		)
+		(pin "6"
+			(uuid "f00d55bc-2a6e-4fa2-b1bd-ac5af72492c7")
+		)
+		(pin "7"
+			(uuid "56caa36f-cc71-4ea8-b42c-2700479346b9")
+		)
+		(pin "8"
+			(uuid "30fb5020-4742-4eab-9a4c-aba195b9bfd5")
+		)
+		(pin "9"
+			(uuid "1f735086-f6f0-4b2b-bad6-5bbab0795293")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 342.9 160.655 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba6d56bb-fdbf-4c69-bde5-bca8b9f12843")
+		(property "Reference" "N11"
+			(at 346.075 158.115 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAC8 TH1.6-0.3 M2"
+			(at 346.075 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-Dual_Pad"
+			(at 342.9 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 160.655 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8acd4ac0-ebf1-4bc8-84f6-1e91b60d8757")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "N11")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.095 120.015 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfa10807-cdcd-4d86-9c59-84a63f832118")
+		(property "Reference" "#PWR01"
+			(at 125.095 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.095 114.935 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.095 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.095 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.095 120.015 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e9b7541-8a6f-4175-bc4d-08b01d155f5b")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 132.715 120.015 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c698a9f2-37b8-4a94-8e21-d96c3bdd2da1")
+		(property "Reference" "#PWR07"
+			(at 132.715 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 132.715 114.935 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.715 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.715 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 132.715 120.015 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93ec8dfe-7054-42dd-b93f-cf0d26eb6f36")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 59.69 184.785 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cab7d981-e03e-4804-bac3-dd5610f4161d")
+		(property "Reference" "J2"
+			(at 61.595 184.785 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS43-201A-S"
+			(at 61.595 187.325 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
+			(at 59.69 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 184.785 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11a5f700-2e91-47ca-9f44-88ad4ae75e6e")
+		)
+		(pin "2"
+			(uuid "0bc2f0b0-24bf-401d-85ff-4af86d777e79")
+		)
+		(pin "3"
+			(uuid "cedf70a6-9c7e-47ed-a4d3-db780bf2ef4b")
+		)
+		(pin "4"
+			(uuid "b9b3128a-a989-47d7-a8fb-3132c6132d2d")
+		)
+		(pin "5"
+			(uuid "f01d17b0-bcc5-4d13-b744-f989b5a2edad")
+		)
+		(pin "6"
+			(uuid "b12dfa1f-6384-4ed5-a091-550d4f276a00")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "caea3040-3b80-48b0-a628-9286417bacdc")
+		(property "Reference" "#PWR030"
+			(at 240.03 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 236.855 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28ee4ace-7916-4561-a660-cc9d14699f34")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 54.61 184.785 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccd0e1f5-001d-4e66-8dd6-4a6fa6b65af9")
+		(property "Reference" "#PWR06"
+			(at 58.42 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 51.435 184.785 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 184.785 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f236a2c5-419f-4059-82df-99f816c508fe")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 187.325 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cfa69b61-7355-437a-b1ca-3015149d74bc")
+		(property "Reference" "#PWR09"
+			(at 48.26 187.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 187.325 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 187.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 187.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 187.325 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3577870c-0598-4eae-bcf7-e372e9237876")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 351.79 67.945 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d399d2a1-52c2-44c7-9faf-4591862ce798")
+		(property "Reference" "D19"
+			(at 347.98 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 353.695 69.5325 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 356.87 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 67.945 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 67.945 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ad7c14c-d494-4190-ba45-bb3613fab4f3")
+		)
+		(pin "2"
+			(uuid "12c634e5-86a0-4ffc-8a66-93b2705a30ec")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 317.5 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d617ab9a-ae7d-437e-82ce-27f7596e588a")
+		(property "Reference" "N7"
+			(at 320.675 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.2mm"
+			(at 320.675 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-NPTHhole"
+			(at 317.5 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "N7")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 346.71 52.705 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7cc1956-84c7-40db-8453-f208697af25d")
+		(property "Reference" "K18"
+			(at 344.17 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 346.71 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 346.71 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 52.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f6c0812-30ab-4709-8e92-3d079356e79a")
+		)
+		(pin "2"
+			(uuid "f386a6b3-8541-4326-a1f5-96aac472c0c6")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 342.9 135.255 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db45e1d1-a53b-4fc3-8976-c45ebff27bb8")
+		(property "Reference" "N9"
+			(at 345.44 132.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAC8 TH1.6-0.3 M2"
+			(at 345.44 135.255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-Dual_Pad"
+			(at 342.9 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 135.255 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 135.255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53d5bfc1-8fcf-4575-b5a8-5d9312b88ba7")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "N9")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "N6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 298.45 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc8033f2-c4cf-4a51-afbb-3b232bf712c6")
+		(property "Reference" "D6"
+			(at 294.64 79.375 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 300.355 81.5975 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 303.53 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d2add6f5-4d65-4635-9b29-947403c4e42c")
+		)
+		(pin "2"
+			(uuid "409e2519-e2c8-4424-9fc2-53c34f395500")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 298.45 92.075 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de156c34-245d-4318-afb8-96908096e659")
+		(property "Reference" "D22"
+			(at 294.64 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 300.355 93.6625 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 303.53 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 92.075 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f22a4ad0-9c73-436d-80d1-dd279692e56c")
+		)
+		(pin "2"
+			(uuid "e59afb51-7938-4849-a21d-ebff5f2285c4")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 304.165 139.065 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de5bb30a-5a91-48da-af68-5433f65cac4b")
+		(property "Reference" "N2"
+			(at 307.34 137.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.2mm"
+			(at 307.34 140.335 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-NPTHhole"
+			(at 304.165 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 304.165 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 304.165 139.065 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "N2")
+					(unit 1)
+				)
+			)
+			(project "body"
+				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
+					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 306.705 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df27ff2d-1e68-4a48-ab03-dd648c52d3c4")
+		(property "Reference" "K8"
+			(at 304.165 61.595 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 306.705 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 306.705 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.705 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 306.705 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f327672-e264-48a4-bfff-3ec41a8114e8")
+		)
+		(pin "2"
+			(uuid "354829b3-01df-4003-a046-a00d1c265faa")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 187.325 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df5c5184-8522-4f92-8814-ddcb8d23fd34")
+		(property "Reference" "#PWR05"
+			(at 127 187.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 187.325 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 187.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 187.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 187.325 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee191a1b-8ead-4b65-8dba-2a5f2030fe5e")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 65.405 120.015 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfbbb1e4-8342-4da1-af3a-cab91bc70feb")
+		(property "Reference" "#PWR023"
+			(at 65.405 113.665 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 65.405 114.935 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.405 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 65.405 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 65.405 120.015 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "844701c9-1fe0-4548-a886-9c920eecd2ce")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 233.68 130.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e08c0afc-c3b3-4b75-b2be-83cbcab10a9d")
+		(property "Reference" "#PWR035"
+			(at 229.87 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 238.76 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "369dc6a5-8404-4bc4-9b77-bde7a7c3b52f")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 333.375 52.705 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e9db114c-4c9c-450e-9409-3654235e76c9")
+		(property "Reference" "K14"
+			(at 330.835 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 333.375 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 333.375 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 333.375 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 333.375 52.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b5a1caa-eb22-4095-a2a8-33b0f31fc4f4")
+		)
+		(pin "2"
+			(uuid "1b7752ed-7d77-4d14-a567-4f5421ac9a1f")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 182.245 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efd8068d-953a-49d4-8c3c-4271a85f02f8")
+		(property "Reference" "TRK1"
+			(at 185.42 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPS43-201A-S"
+			(at 185.42 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:Azoteq_TPS43_201A_S"
+			(at 182.245 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.245 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.245 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "TRK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 320.04 76.835 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f06bb331-646b-4418-a7bc-eceab5631abe")
+		(property "Reference" "K12"
+			(at 317.5 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 320.04 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 320.04 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 76.835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4363b5d3-aa65-4b48-8f78-ba1e0a8ad8ac")
+		)
+		(pin "2"
+			(uuid "4a52674e-d3b5-4539-b34a-2c280ec754fc")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
+		(at 351.79 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f11dc669-217f-4e8c-9b2b-04f4d997a404")
+		(property "Reference" "D18"
+			(at 347.98 55.245 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148_SMD"
+			(at 353.695 57.4675 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:D_SOD-123_dual"
+			(at 356.87 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9fe6fb0-7ca3-4609-a777-76eff59ef989")
+		)
+		(pin "2"
+			(uuid "a805e9fe-74c7-4d41-ac60-87537595a88f")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 293.37 76.835 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f647c70f-79d2-4658-bb33-ba696cfa48c0")
+		(property "Reference" "K6"
+			(at 290.83 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 293.37 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 293.37 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 71.755 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 76.835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8ea7529-b336-4da9-9dd0-c1758b46e866")
+		)
+		(pin "2"
+			(uuid "b596739b-a322-473a-916c-0bfbeeb557ea")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 320.04 52.705 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f80c9e81-d7f4-4990-bf80-10e8189b2d40")
+		(property "Reference" "K10"
+			(at 317.5 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 320.04 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 320.04 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 52.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3ef6eb4-3ad2-431b-870e-276bdfc5a707")
+		)
+		(pin "2"
+			(uuid "25f1ee5f-c014-4833-a88c-f3ce0bf9e68c")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 306.705 52.705 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fad1c0b6-93d1-431d-9bf5-ca4dc4b0dc40")
+		(property "Reference" "K7"
+			(at 304.165 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PG1316S"
+			(at 306.705 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+			(at 306.705 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.705 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 306.705 52.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df918b47-c573-438b-8311-7e99cf21e188")
+		)
+		(pin "2"
+			(uuid "ace1a5a4-f2f5-4155-b113-2c52973334ce")
+		)
+		(instances
+			(project "Paikorea"
+				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 51.435 128.27)
+		(uuid "5f73b3a6-d85d-448c-bfe2-6ce0ce88268e")
+	)
+	(no_connect
+		(at 51.435 130.81)
+		(uuid "bddd96ee-1408-4fe5-80a6-dbec1b64bc12")
+	)
+	(no_connect
+		(at 51.435 133.35)
+		(uuid "968b51fa-3b6b-4c7d-a979-73624bf94e02")
+	)
+	(no_connect
+		(at 51.435 135.89)
+		(uuid "6eac5207-6792-4243-aa67-100eb269860a")
+	)
+	(no_connect
+		(at 51.435 138.43)
+		(uuid "fd2ca2cf-049b-4b1d-9127-01a6f55d86b5")
+	)
+	(no_connect
+		(at 51.435 140.97)
+		(uuid "c52211d2-7186-43d9-a808-edfc3263371b")
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 57.15 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7a43bf9-145e-4240-9dbb-543ce9009754")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 59.69 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "028902c8-1c41-43b6-ba81-4757cb68e367")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.69 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 62.23 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "659390e1-0f7c-412e-9a05-697852efa337")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 64.77 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25d05529-181d-4e14-bab7-02a2bec5694e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 67.31 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c7d272e-2828-4e53-b4ff-1885ce57a8ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Data"
+		(shape input)
+		(at 69.85 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8885acc1-2ea0-4e81-a285-ca536ec7eaf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 72.39 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e62b6c93-d08e-4f17-90d4-250c0e50250b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 83.185 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25e31e1c-efae-441e-8bb1-211bc7f06fd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.185 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 83.185 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c9f247b-4ef5-43e5-9235-57f9543e856f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.185 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(no_connect
+		(at 83.185 140.97)
+		(uuid "f8b900a6-e6f8-408a-8135-4215a925f19b")
+	)
+	(no_connect
+		(at 83.185 138.43)
+		(uuid "d91b9152-a66d-4fc6-8b9d-609c6a4f17d5")
+	)
+	(global_label "col3"
+		(shape input)
+		(at 83.185 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71f0a587-5618-4254-8b0e-82024f3b62a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.185 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 83.185 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbff6335-2056-47dc-b54d-6e4c4fffa696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.185 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col5"
+		(shape input)
+		(at 78.105 120.015 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd1a10ed-cdac-4091-a6e3-ad7fb7761d99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.105 120.015 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(no_connect
+		(at 111.125 128.27)
+		(uuid "21425910-62a4-4da9-8231-2738cef76a15")
+	)
+	(no_connect
+		(at 111.125 130.81)
+		(uuid "e65c1110-084b-42c5-a2bb-9d45012c239d")
+	)
+	(no_connect
+		(at 111.125 133.35)
+		(uuid "0e40e6ec-d3bb-4391-8b51-2d17baad8035")
+	)
+	(global_label "col5"
+		(shape input)
+		(at 111.125 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97c2f3c1-e577-43be-b42a-73ea22fa1d67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.125 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 111.125 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a914edb4-dab7-4e36-b370-f48200b202b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.125 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 111.125 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4181414a-c1ef-488c-aa76-d32886132981")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.125 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDA_B"
+		(shape input)
+		(at 116.84 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e68032af-4e59-450d-b5aa-eb33be21eb0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SCL_B"
+		(shape input)
+		(at 119.38 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b317c34-2709-4235-9a07-7763e9d23648")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 121.92 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfd3a7ec-34dd-4df8-9a9f-29fbcf0b6504")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 124.46 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e91b1e77-9cfe-4f7e-b6c1-3404ad8d4382")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 127 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9f41b9e-9343-4ae1-8932-7dd3474c7f55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Data"
+		(shape input)
+		(at 129.54 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd69db96-65d9-47ab-bcec-3b0565ec80f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 132.08 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f4d6ca9-65dd-4750-bf8f-1fcb5fb6f708")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 142.875 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "271cfd27-f821-4d1b-a563-d94bec396717")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.875 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 142.875 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63fcf854-38d9-4d05-8ada-b174e4aaeef6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.875 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(no_connect
+		(at 142.875 140.97)
+		(uuid "b406abc0-0f88-4a32-b6db-544e0e3cf53d")
+	)
+	(no_connect
+		(at 142.875 138.43)
+		(uuid "e36d8ef6-7b11-4e60-bce3-9480ad8886c5")
+	)
+	(no_connect
+		(at 142.875 135.89)
+		(uuid "35d0bbc0-a00f-42a7-83dc-af014f7720cc")
+	)
+	(no_connect
+		(at 142.875 133.35)
+		(uuid "5aebcc2c-c7c5-4593-a3d0-019e61d4a0b2")
+	)
+	(no_connect
+		(at 137.795 120.015)
+		(uuid "f645e993-8674-4546-95e7-f8d2f7169008")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
