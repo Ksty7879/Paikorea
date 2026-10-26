@@ -710,6 +710,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Paikorea:RP2040_Zero"
 			(pin_names
 				(offset 0.635)
@@ -1166,24 +1265,6 @@
 					)
 				)
 				(pin passive line
-					(at 5.715 15.875 270)
-					(length 3.81)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -1.905 15.875 270)
 					(length 3.81)
 					(name "GND"
@@ -1201,221 +1282,17 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
+				(pin passive line
+					(at 5.715 15.875 270)
+					(length 3.81)
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2150,20 +2027,76 @@
 		(uuid "d723fbbd-16aa-4567-ba5c-1613e620c07a")
 	)
 	(no_connect
+		(at 111.125 133.35)
+		(uuid "0e40e6ec-d3bb-4391-8b51-2d17baad8035")
+	)
+	(no_connect
+		(at 111.125 128.27)
+		(uuid "21425910-62a4-4da9-8231-2738cef76a15")
+	)
+	(no_connect
+		(at 142.875 135.89)
+		(uuid "35d0bbc0-a00f-42a7-83dc-af014f7720cc")
+	)
+	(no_connect
+		(at 57.15 151.765)
+		(uuid "3c4a3ddf-9329-4be3-91be-4177ee96bffa")
+	)
+	(no_connect
 		(at 54.61 192.405)
 		(uuid "465eddff-be2e-4d4f-bcfb-0edd92df0111")
 	)
 	(no_connect
-		(at 133.35 189.865)
-		(uuid "65207488-a1ac-464d-ad26-d864a266f4cd")
+		(at 142.875 133.35)
+		(uuid "5aebcc2c-c7c5-4593-a3d0-019e61d4a0b2")
+	)
+	(no_connect
+		(at 51.435 128.27)
+		(uuid "5f73b3a6-d85d-448c-bfe2-6ce0ce88268e")
+	)
+	(no_connect
+		(at 51.435 135.89)
+		(uuid "6eac5207-6792-4243-aa67-100eb269860a")
 	)
 	(no_connect
 		(at 54.61 189.865)
 		(uuid "8ec494b9-5473-437f-bab7-5ea77124f5be")
 	)
 	(no_connect
-		(at 133.35 192.405)
-		(uuid "fbdeabcc-8a5b-42ca-9777-e4eba431794c")
+		(at 51.435 133.35)
+		(uuid "968b51fa-3b6b-4c7d-a979-73624bf94e02")
+	)
+	(no_connect
+		(at 59.69 151.765)
+		(uuid "a468dac5-105d-41fa-9638-a707e7640fc4")
+	)
+	(no_connect
+		(at 142.875 140.97)
+		(uuid "b406abc0-0f88-4a32-b6db-544e0e3cf53d")
+	)
+	(no_connect
+		(at 51.435 130.81)
+		(uuid "bddd96ee-1408-4fe5-80a6-dbec1b64bc12")
+	)
+	(no_connect
+		(at 51.435 140.97)
+		(uuid "c52211d2-7186-43d9-a808-edfc3263371b")
+	)
+	(no_connect
+		(at 142.875 138.43)
+		(uuid "e36d8ef6-7b11-4e60-bce3-9480ad8886c5")
+	)
+	(no_connect
+		(at 111.125 130.81)
+		(uuid "e65c1110-084b-42c5-a2bb-9d45012c239d")
+	)
+	(no_connect
+		(at 137.795 120.015)
+		(uuid "f645e993-8674-4546-95e7-f8d2f7169008")
+	)
+	(no_connect
+		(at 51.435 138.43)
+		(uuid "fd2ca2cf-049b-4b1d-9127-01a6f55d86b5")
 	)
 	(wire
 		(pts
@@ -2565,6 +2498,54 @@
 		)
 		(uuid "f9513ac0-f127-4591-a8b4-67c25eb376eb")
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 83.185 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "028902c8-1c41-43b6-ba81-4757cb68e367")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.6778 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 67.31 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c7d272e-2828-4e53-b4ff-1885ce57a8ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.31 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "row2"
 		(shape input)
 		(at 273.05 83.82 180)
@@ -2578,6 +2559,30 @@
 		(uuid "161231b4-e8ac-4467-bc47-7b45a2683e67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 265.669 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 132.08 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f4d6ca9-65dd-4750-bf8f-1fcb5fb6f708")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 151.765 270)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2613,55 +2618,79 @@
 			)
 		)
 	)
+	(global_label "row2"
+		(shape input)
+		(at 64.77 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25d05529-181d-4e14-bab7-02a2bec5694e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 83.185 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25e31e1c-efae-441e-8bb1-211bc7f06fd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.185 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 142.875 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "271cfd27-f821-4d1b-a563-d94bec396717")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.875 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SCL"
-		(shape input)
-		(at 133.35 182.245 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "285f88fa-6b00-4361-8fbb-b0921db3f725")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.9366 182.245 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 133.35 179.705 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a8c19fa-19c3-4fe5-b3de-de9e847c42f1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.8761 179.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SCL_B"
 		(shape input)
 		(at 54.61 182.245 180)
 		(fields_autoplaced yes)
@@ -2673,7 +2702,31 @@
 		)
 		(uuid "2cde3c9e-a570-40ea-b202-368c8a099ee0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.1966 182.245 0)
+			(at 48.1172 182.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 111.125 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4181414a-c1ef-488c-aa76-d32886132981")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.125 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2733,6 +2786,54 @@
 			)
 		)
 	)
+	(global_label "row3"
+		(shape input)
+		(at 142.875 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63fcf854-38d9-4d05-8ada-b174e4aaeef6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.875 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 62.23 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "659390e1-0f7c-412e-9a05-697852efa337")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "col4"
 		(shape input)
 		(at 328.295 46.99 90)
@@ -2754,6 +2855,174 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 83.185 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71f0a587-5618-4254-8b0e-82024f3b62a1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.185 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SCL_B"
+		(shape input)
+		(at 119.38 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b317c34-2709-4235-9a07-7763e9d23648")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.38 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Data"
+		(shape input)
+		(at 69.85 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8885acc1-2ea0-4e81-a285-ca536ec7eaf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 83.185 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c9f247b-4ef5-43e5-9235-57f9543e856f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.185 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col5"
+		(shape input)
+		(at 111.125 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97c2f3c1-e577-43be-b42a-73ea22fa1d67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.125 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 83.185 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7a43bf9-145e-4240-9dbb-543ce9009754")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.7383 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 111.125 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a914edb4-dab7-4e36-b370-f48200b202b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.125 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -2805,6 +3074,54 @@
 			)
 		)
 	)
+	(global_label "col5"
+		(shape input)
+		(at 78.105 120.015 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd1a10ed-cdac-4091-a6e3-ad7fb7761d99")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.105 120.015 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 121.92 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfd3a7ec-34dd-4df8-9a9f-29fbcf0b6504")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.92 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "row3"
 		(shape input)
 		(at 273.05 95.885 180)
@@ -2850,6 +3167,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 127 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9f41b9e-9343-4ae1-8932-7dd3474c7f55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -2901,7 +3242,127 @@
 			)
 		)
 	)
+	(global_label "col4"
+		(shape input)
+		(at 83.185 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbff6335-2056-47dc-b54d-6e4c4fffa696")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.185 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 72.39 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e62b6c93-d08e-4f17-90d4-250c0e50250b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.39 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SDA_B"
+		(shape input)
+		(at 116.84 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e68032af-4e59-450d-b5aa-eb33be21eb0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.84 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape input)
+		(at 124.46 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e91b1e77-9cfe-4f7e-b6c1-3404ad8d4382")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.46 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Data"
+		(shape input)
+		(at 129.54 151.765 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd69db96-65d9-47ab-bcec-3b0565ec80f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 151.765 270)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SDA"
 		(shape input)
 		(at 54.61 179.705 180)
 		(fields_autoplaced yes)
@@ -2913,7 +3374,7 @@
 		)
 		(uuid "fdbe3bba-b640-4232-892d-abce4177cc1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.1361 179.705 0)
+			(at 48.0567 179.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3397,174 +3858,6 @@
 			(project "Paikorea"
 				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 342.9 147.955 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19b6f31d-60b7-43a6-8ede-c78366752c92")
-		(property "Reference" "N10"
-			(at 346.075 145.415 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAC8 TH1.6-0.3 M2"
-			(at 346.075 147.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-Dual_Pad"
-			(at 342.9 147.955 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 147.955 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 147.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2f27a4e-e7aa-4f71-b6e8-46398b88d109")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "N10")
-					(unit 1)
-				)
-			)
-			(project "body"
-				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
-					(reference "N6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 342.9 174.625 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1be6f1b8-6662-4019-8c65-e63336a9ed81")
-		(property "Reference" "N12"
-			(at 346.075 172.085 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAC8 TH1.6-0.3 M2"
-			(at 346.075 174.625 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-Dual_Pad"
-			(at 342.9 174.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 174.625 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 174.625 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "60757f72-e618-46af-823c-7fb92bbc1a62")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "N12")
-					(unit 1)
-				)
-			)
-			(project "body"
-				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
-					(reference "N6")
 					(unit 1)
 				)
 			)
@@ -4453,89 +4746,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 342.9 163.195 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c96dba3-e375-4f1c-9937-3cba1c8389cf")
-		(property "Reference" "#PWR021"
-			(at 342.9 169.545 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 342.9 167.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 163.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 163.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 163.195 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df7e677c-e805-4d0b-8a4e-805a2779b64f")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-			(project "body"
-				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
 		(at 339.09 92.075 90)
 		(unit 1)
@@ -4698,99 +4908,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
-		(at 138.43 184.785 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "556edf20-7bdb-4149-a06c-bad34b022795")
-		(property "Reference" "J3"
-			(at 140.335 184.785 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TPS43-201A-S"
-			(at 140.335 187.325 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DreaM117er-keebLibrary:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
-			(at 138.43 184.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 184.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 184.785 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9ec5aa24-2399-4ef8-b2e8-548ce1688956")
-		)
-		(pin "2"
-			(uuid "ca5c98ed-f4d7-46ff-b9bf-2b6963f3d51c")
-		)
-		(pin "3"
-			(uuid "f66c3c69-cd83-4bdf-b1ee-0cb142d125fe")
-		)
-		(pin "4"
-			(uuid "76396046-0830-4502-b01e-820962bf34af")
-		)
-		(pin "5"
-			(uuid "9bb2af41-84da-460b-b964-8ab875e0c675")
-		)
-		(pin "6"
-			(uuid "d5278401-1064-4428-a786-f3871a5c7a1d")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 293.37 64.77 0)
 		(unit 1)
@@ -4943,166 +5060,6 @@
 			(project "Paikorea"
 				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
 					(reference "K11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 342.9 177.165 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65d61cea-51d6-43e0-bb05-03e12a127c4a")
-		(property "Reference" "#PWR022"
-			(at 342.9 183.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 342.9 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 177.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 177.165 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 177.165 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "be642687-30ea-436f-8348-9471113a247d")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-			(project "body"
-				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 133.35 184.785 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6e5aace9-fc86-4cbf-addf-605f3872cd7e")
-		(property "Reference" "#PWR03"
-			(at 137.16 184.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 130.175 184.785 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 184.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 184.785 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 184.785 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05bfe7a7-a448-47a6-b7f2-91f3580e318d")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5729,89 +5686,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 342.9 150.495 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c411781-aab1-421d-bb76-950c0738177b")
-		(property "Reference" "#PWR020"
-			(at 342.9 156.845 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 342.9 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 150.495 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 150.495 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2f1a4b2-9a52-4ff6-98ed-e31f93220070")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project "body"
-				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 334.01 88.9 0)
 		(unit 1)
@@ -5966,89 +5840,6 @@
 			(project "Paikorea"
 				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 342.9 137.795 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "943fb4a0-f026-4f14-b338-eaab9805839e")
-		(property "Reference" "#PWR019"
-			(at 342.9 144.145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 342.9 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 137.795 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 137.795 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25c0bd96-4b37-4255-88aa-0f73f2793dc0")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "body"
-				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6843,90 +6634,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 342.9 160.655 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba6d56bb-fdbf-4c69-bde5-bca8b9f12843")
-		(property "Reference" "N11"
-			(at 346.075 158.115 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAC8 TH1.6-0.3 M2"
-			(at 346.075 160.655 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-Dual_Pad"
-			(at 342.9 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 160.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 160.655 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8acd4ac0-ebf1-4bc8-84f6-1e91b60d8757")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "N11")
-					(unit 1)
-				)
-			)
-			(project "body"
-				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
-					(reference "N6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 125.095 120.015 180)
 		(unit 1)
@@ -7643,90 +7350,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 342.9 135.255 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db45e1d1-a53b-4fc3-8976-c45ebff27bb8")
-		(property "Reference" "N9"
-			(at 345.44 132.715 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAC8 TH1.6-0.3 M2"
-			(at 345.44 135.255 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DreaM117er-keebLibrary:MAC8_TH0816-XX-M2-Dual_Pad"
-			(at 342.9 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 135.255 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 342.9 135.255 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "53d5bfc1-8fcf-4575-b5a8-5d9312b88ba7")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "N9")
-					(unit 1)
-				)
-			)
-			(project "body"
-				(path "/343226b5-a3a9-4fb6-9e9d-34c52018e75a"
-					(reference "N6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DreaM117er_Library:DS_1N4148_SMD")
 		(at 298.45 80.01 90)
 		(unit 1)
@@ -8043,82 +7666,6 @@
 			(project "Paikorea"
 				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
 					(reference "K8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 187.325 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "df5c5184-8522-4f92-8814-ddcb8d23fd34")
-		(property "Reference" "#PWR05"
-			(at 127 187.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 187.325 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 187.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 187.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 187.325 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee191a1b-8ead-4b65-8dba-2a5f2030fe5e")
-		)
-		(instances
-			(project "Paikorea"
-				(path "/333bdadb-adb3-42ce-b922-da256c82dda9"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8826,646 +8373,6 @@
 				)
 			)
 		)
-	)
-	(no_connect
-		(at 51.435 128.27)
-		(uuid "5f73b3a6-d85d-448c-bfe2-6ce0ce88268e")
-	)
-	(no_connect
-		(at 51.435 130.81)
-		(uuid "bddd96ee-1408-4fe5-80a6-dbec1b64bc12")
-	)
-	(no_connect
-		(at 51.435 133.35)
-		(uuid "968b51fa-3b6b-4c7d-a979-73624bf94e02")
-	)
-	(no_connect
-		(at 51.435 135.89)
-		(uuid "6eac5207-6792-4243-aa67-100eb269860a")
-	)
-	(no_connect
-		(at 51.435 138.43)
-		(uuid "fd2ca2cf-049b-4b1d-9127-01a6f55d86b5")
-	)
-	(no_connect
-		(at 51.435 140.97)
-		(uuid "c52211d2-7186-43d9-a808-edfc3263371b")
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 57.15 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7a43bf9-145e-4240-9dbb-543ce9009754")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.15 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 59.69 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "028902c8-1c41-43b6-ba81-4757cb68e367")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row3"
-		(shape input)
-		(at 62.23 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "659390e1-0f7c-412e-9a05-697852efa337")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row2"
-		(shape input)
-		(at 64.77 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "25d05529-181d-4e14-bab7-02a2bec5694e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row1"
-		(shape input)
-		(at 67.31 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0c7d272e-2828-4e53-b4ff-1885ce57a8ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.31 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Data"
-		(shape input)
-		(at 69.85 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8885acc1-2ea0-4e81-a285-ca536ec7eaf2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row0"
-		(shape input)
-		(at 72.39 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e62b6c93-d08e-4f17-90d4-250c0e50250b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "col1"
-		(shape input)
-		(at 83.185 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "25e31e1c-efae-441e-8bb1-211bc7f06fd2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.185 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "col2"
-		(shape input)
-		(at 83.185 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8c9f247b-4ef5-43e5-9235-57f9543e856f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.185 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(no_connect
-		(at 83.185 140.97)
-		(uuid "f8b900a6-e6f8-408a-8135-4215a925f19b")
-	)
-	(no_connect
-		(at 83.185 138.43)
-		(uuid "d91b9152-a66d-4fc6-8b9d-609c6a4f17d5")
-	)
-	(global_label "col3"
-		(shape input)
-		(at 83.185 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "71f0a587-5618-4254-8b0e-82024f3b62a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.185 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "col4"
-		(shape input)
-		(at 83.185 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbff6335-2056-47dc-b54d-6e4c4fffa696")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.185 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "col5"
-		(shape input)
-		(at 78.105 120.015 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd1a10ed-cdac-4091-a6e3-ad7fb7761d99")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.105 120.015 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(no_connect
-		(at 111.125 128.27)
-		(uuid "21425910-62a4-4da9-8231-2738cef76a15")
-	)
-	(no_connect
-		(at 111.125 130.81)
-		(uuid "e65c1110-084b-42c5-a2bb-9d45012c239d")
-	)
-	(no_connect
-		(at 111.125 133.35)
-		(uuid "0e40e6ec-d3bb-4391-8b51-2d17baad8035")
-	)
-	(global_label "col5"
-		(shape input)
-		(at 111.125 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "97c2f3c1-e577-43be-b42a-73ea22fa1d67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.125 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "col4"
-		(shape input)
-		(at 111.125 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a914edb4-dab7-4e36-b370-f48200b202b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.125 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "col3"
-		(shape input)
-		(at 111.125 140.97 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4181414a-c1ef-488c-aa76-d32886132981")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.125 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA_B"
-		(shape input)
-		(at 116.84 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e68032af-4e59-450d-b5aa-eb33be21eb0b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SCL_B"
-		(shape input)
-		(at 119.38 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b317c34-2709-4235-9a07-7763e9d23648")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "col2"
-		(shape input)
-		(at 121.92 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bfd3a7ec-34dd-4df8-9a9f-29fbcf0b6504")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "col1"
-		(shape input)
-		(at 124.46 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e91b1e77-9cfe-4f7e-b6c1-3404ad8d4382")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.46 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row0"
-		(shape input)
-		(at 127 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c9f41b9e-9343-4ae1-8932-7dd3474c7f55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "Data"
-		(shape input)
-		(at 129.54 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fd69db96-65d9-47ab-bcec-3b0565ec80f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row1"
-		(shape input)
-		(at 132.08 151.765 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f4d6ca9-65dd-4750-bf8f-1fcb5fb6f708")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 151.765 270)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "row2"
-		(shape input)
-		(at 142.875 146.05 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "271cfd27-f821-4d1b-a563-d94bec396717")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.875 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "row3"
-		(shape input)
-		(at 142.875 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "63fcf854-38d9-4d05-8ada-b174e4aaeef6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.875 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(no_connect
-		(at 142.875 140.97)
-		(uuid "b406abc0-0f88-4a32-b6db-544e0e3cf53d")
-	)
-	(no_connect
-		(at 142.875 138.43)
-		(uuid "e36d8ef6-7b11-4e60-bce3-9480ad8886c5")
-	)
-	(no_connect
-		(at 142.875 135.89)
-		(uuid "35d0bbc0-a00f-42a7-83dc-af014f7720cc")
-	)
-	(no_connect
-		(at 142.875 133.35)
-		(uuid "5aebcc2c-c7c5-4593-a3d0-019e61d4a0b2")
-	)
-	(no_connect
-		(at 137.795 120.015)
-		(uuid "f645e993-8674-4546-95e7-f8d2f7169008")
 	)
 	(sheet_instances
 		(path "/"
