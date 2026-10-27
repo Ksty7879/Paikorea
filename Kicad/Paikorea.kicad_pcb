@@ -94,7 +94,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(aux_axis_origin 167.351 63.150545)
 		(grid_origin 22.69 138.15)
 		(pcbplotparams
@@ -18139,7 +18138,7 @@
 				(pins "S" "R2" "R1" "T")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -8.47 -2.62)
@@ -24522,7 +24521,7 @@
 				(pins "S" "R2" "R1" "T")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -8.47 -2.62)
