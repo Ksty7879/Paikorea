@@ -356,235 +356,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Audio:AudioJack4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack4"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio Jack, 4 Poles (TRRS)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones TRRS connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AudioJack4_0_1"
-				(rectangle
-					(start -6.35 -5.08)
-					(end -7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -5.08) (xy -5.08 -5.715) (xy -4.445 -5.08) (xy -4.445 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -5.08) (xy -1.27 -5.715) (xy -0.635 -5.08) (xy -0.635 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0.635 -5.715) (xy 1.27 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -6.35 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy -2.54 0) (xy -2.54 -5.08) (xy -3.175 -5.715) (xy -3.81 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack4_1_1"
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DreaM117er_Library:DS_1N4148_SMD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -804,6 +575,244 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Paikorea:PJ-320D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-320D"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "C431535:AUDIO-SMD_PJ-320D-1"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_SHOU-HAN-PJ-320D_C431535.html"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "SHOU HAN(首韩)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PJ-320D"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C431535"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Audio Connectors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PJ-320D_0_1"
+				(rectangle
+					(start -8.38 0)
+					(end -6.86 -4.57)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -7.62 2.54) (xy -7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -2.03 -2.54) (xy -2.54 -1.52) (xy -3.05 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy -3.3 -5.08) (xy -3.81 -4.06) (xy -4.32 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.56 0) (xy -0.76 0) (xy -1.27 -1.02) (xy -1.78 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -2047,6 +2056,10 @@
 		(uuid "465eddff-be2e-4d4f-bcfb-0edd92df0111")
 	)
 	(no_connect
+		(at 232.41 106.68)
+		(uuid "4a3a9c4d-f183-4832-b254-665f1c038371")
+	)
+	(no_connect
 		(at 78.105 120.015)
 		(uuid "4a87f04c-1735-402a-b7d8-b58ad4a8a696")
 	)
@@ -2073,6 +2086,10 @@
 	(no_connect
 		(at 142.875 146.05)
 		(uuid "a198f0a1-a13d-47ea-b0fd-463a8b4f87b5")
+	)
+	(no_connect
+		(at 232.41 128.27)
+		(uuid "a3853baa-5a6a-4c48-9f56-e75db7d95689")
 	)
 	(no_connect
 		(at 142.875 135.89)
@@ -3132,7 +3149,7 @@
 	)
 	(global_label "Data"
 		(shape input)
-		(at 233.68 125.73 0)
+		(at 232.41 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3142,7 +3159,7 @@
 		)
 		(uuid "cf17de1f-05e6-43b0-80db-a3ad7134b336")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.8795 125.73 0)
+			(at 239.6095 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3156,7 +3173,7 @@
 	)
 	(global_label "Data"
 		(shape input)
-		(at 233.68 104.14 0)
+		(at 232.41 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3166,7 +3183,7 @@
 		)
 		(uuid "cf367567-ee4d-42a5-8037-6bdd462b2f00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.8795 104.14 0)
+			(at 239.6095 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3749,7 +3766,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 233.68 109.22 270)
+		(at 232.41 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3759,7 +3776,7 @@
 		(dnp no)
 		(uuid "0ef0261e-b94e-427d-bf8a-cfa3199e77ba")
 		(property "Reference" "#PWR037"
-			(at 229.87 109.22 0)
+			(at 228.6 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +3787,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 238.76 109.22 90)
+			(at 237.49 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3780,7 +3797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 109.22 0)
+			(at 232.41 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3791,7 +3808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 109.22 0)
+			(at 232.41 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3802,7 +3819,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 109.22 0)
+			(at 232.41 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3903,8 +3920,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack4")
-		(at 228.6 125.73 0)
+		(lib_id "Paikorea:PJ-320D")
+		(at 224.79 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3915,7 +3932,7 @@
 		(fields_autoplaced yes)
 		(uuid "34330073-1a8c-4065-81be-b2ad78166358")
 		(property "Reference" "J4"
-			(at 226.06 116.84 0)
+			(at 222.38 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3925,7 +3942,7 @@
 			)
 		)
 		(property "Value" "AudioJack3"
-			(at 226.06 119.38 0)
+			(at 222.38 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3934,8 +3951,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_KoreanHropartsElec_PJ-320D-4A_Horizontal"
-			(at 228.6 125.73 0)
+		(property "Footprint" "Paikorea:AUDIO-SMD_PJ-320D-1"
+			(at 224.79 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3945,8 +3962,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 228.6 125.73 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_SHOU-HAN-PJ-320D_C431535.html"
+			(at 224.79 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3957,7 +3974,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (TRRS)"
-			(at 228.6 125.73 0)
+			(at 224.79 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3967,16 +3984,49 @@
 				)
 			)
 		)
-		(pin "R1"
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 224.79 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PJ-320D"
+			(at 224.79 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C431535"
+			(at 224.79 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
 			(uuid "f91516d9-3b7f-412d-abc1-1381f4ad396e")
 		)
-		(pin "S"
+		(pin "3"
 			(uuid "06da2542-6e46-4f0f-885c-625f4b09497e")
 		)
-		(pin "T"
+		(pin "4"
 			(uuid "c98ab752-062d-4069-b37f-87b737333f0c")
 		)
-		(pin "R2"
+		(pin "2"
 			(uuid "0765b23e-62da-453b-ab34-ba6e0b236cc8")
 		)
 		(instances
@@ -4150,7 +4200,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 101.6 90)
+		(at 232.41 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4160,7 +4210,7 @@
 		(dnp no)
 		(uuid "4068a577-85ae-4ed0-a483-4a5e3f429dfc")
 		(property "Reference" "#PWR036"
-			(at 240.03 101.6 0)
+			(at 238.76 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4171,7 +4221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.855 101.6 90)
+			(at 235.585 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4182,7 +4232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 101.6 0)
+			(at 232.41 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4193,7 +4243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 101.6 0)
+			(at 232.41 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4204,7 +4254,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 101.6 0)
+			(at 232.41 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5377,7 +5427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Paikorea:RP2040-Zero_UpsideDown"
+		(property "Footprint" "Paikorea:RP2040-Zero-smd"
 			(at 150.495 137.795 90)
 			(hide yes)
 			(show_name no)
@@ -5887,8 +5937,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack4")
-		(at 228.6 104.14 0)
+		(lib_id "Paikorea:PJ-320D")
+		(at 224.79 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5899,7 +5949,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c8f615a-98a9-4455-9b3c-01d133f1b624")
 		(property "Reference" "J1"
-			(at 226.06 95.25 0)
+			(at 222.38 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5909,7 +5959,7 @@
 			)
 		)
 		(property "Value" "AudioJack3"
-			(at 226.06 97.79 0)
+			(at 222.38 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5918,8 +5968,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_KoreanHropartsElec_PJ-320D-4A_Horizontal"
-			(at 228.6 104.14 0)
+		(property "Footprint" "Paikorea:AUDIO-SMD_PJ-320D-1"
+			(at 224.79 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5929,8 +5979,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 228.6 104.14 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_SHOU-HAN-PJ-320D_C431535.html"
+			(at 224.79 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5941,7 +5991,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (TRRS)"
-			(at 228.6 104.14 0)
+			(at 224.79 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5951,16 +6001,49 @@
 				)
 			)
 		)
-		(pin "R1"
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 224.79 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PJ-320D"
+			(at 224.79 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C431535"
+			(at 224.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
 			(uuid "01793250-c1b4-46cb-ace5-abd35815a9f1")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "e19e8119-f151-43ae-a2d3-50fe1ea8c6ae")
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "26735dfe-dd9c-4be1-b105-94fbbe13c23f")
 		)
-		(pin "R2"
+		(pin "4"
 			(uuid "53f68d00-5ba8-430b-b21d-6ead2de8826d")
 		)
 		(instances
@@ -6483,7 +6566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Paikorea:RP2040-Zero_UpsideDown"
+		(property "Footprint" "Paikorea:RP2040-Zero-smd"
 			(at 90.805 137.795 90)
 			(hide yes)
 			(show_name no)
@@ -6840,7 +6923,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 123.19 90)
+		(at 232.41 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6850,7 +6933,7 @@
 		(dnp no)
 		(uuid "caea3040-3b80-48b0-a628-9286417bacdc")
 		(property "Reference" "#PWR030"
-			(at 240.03 123.19 0)
+			(at 238.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +6944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.855 123.19 90)
+			(at 235.585 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6872,7 +6955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 123.19 0)
+			(at 232.41 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6883,7 +6966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 123.19 0)
+			(at 232.41 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6894,7 +6977,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 123.19 0)
+			(at 232.41 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7709,7 +7792,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 233.68 130.81 270)
+		(at 232.41 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7719,7 +7802,7 @@
 		(dnp no)
 		(uuid "e08c0afc-c3b3-4b75-b2be-83cbcab10a9d")
 		(property "Reference" "#PWR035"
-			(at 229.87 130.81 0)
+			(at 228.6 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7730,7 +7813,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 238.76 130.81 90)
+			(at 237.49 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7740,7 +7823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 130.81 0)
+			(at 232.41 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7751,7 +7834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 130.81 0)
+			(at 232.41 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,7 +7845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 130.81 0)
+			(at 232.41 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
