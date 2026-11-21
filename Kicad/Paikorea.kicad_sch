@@ -580,13 +580,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Paikorea:PJ-320D"
+		(symbol "Paikorea:USB_C_Link"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "CN"
+			(property "Reference" "J"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -596,7 +596,7 @@
 					)
 				)
 			)
-			(property "Value" "PJ-320D"
+			(property "Value" "USB_C_Link"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -606,7 +606,7 @@
 					)
 				)
 			)
-			(property "Footprint" "C431535:AUDIO-SMD_PJ-320D-1"
+			(property "Footprint" "Paikorea:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -617,7 +617,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_SHOU-HAN-PJ-320D_C431535.html"
+			(property "Datasheet" "https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -628,7 +628,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "USB-C receptacle used as the half-to-half link: VBUS=+5V, D+/D- = Data, CC/SBU not connected"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -639,7 +639,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "SHOU HAN(首韩)"
+			(property "Manufacturer" "Korean Hroparts Elec"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -650,7 +650,7 @@
 					)
 				)
 			)
-			(property "MPN" "PJ-320D"
+			(property "MPN" "TYPE-C-31-M-12"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -661,7 +661,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C431535"
+			(property "LCSC Part" "C165948"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -672,88 +672,31 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Audio Connectors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PJ-320D_0_1"
+			(symbol "USB_C_Link_0_1"
 				(rectangle
-					(start -8.38 0)
-					(end -6.86 -4.57)
+					(start -5.08 5.08)
+					(end 2.54 -7.62)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -7.62 2.54) (xy -7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy -2.03 -2.54) (xy -2.54 -1.52) (xy -3.05 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy -3.3 -5.08) (xy -3.81 -4.06) (xy -4.32 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.56 0) (xy -0.76 0) (xy -1.27 -1.02) (xy -1.78 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
+			)
+			(symbol "USB_C_Link_1_1"
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 5.08)
-					(name "1"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -761,17 +704,18 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 7.62 -5.08 180)
+				(pin passive line
+					(at 7.62 2.54 180)
 					(length 5.08)
-					(name "2"
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "A12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -779,17 +723,149 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
 					(at 7.62 -2.54 180)
 					(length 5.08)
-					(name "3"
+					(name "CC/SBU"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -797,17 +873,131 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 7.62 0 180)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
 					(length 5.08)
-					(name "4"
+					(hide yes)
+					(name "CC/SBU"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "CC/SBU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(hide yes)
+					(name "CC/SBU"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "D+/D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "D+/D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "D+/D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(hide yes)
+					(name "D+/D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3546,7 +3736,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 320.04 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3557,7 +3747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 320.04 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3706,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 293.37 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3717,7 +3907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 293.37 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3861,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 346.71 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -3872,7 +4062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 346.71 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -3920,7 +4110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Paikorea:PJ-320D")
+		(lib_id "Paikorea:USB_C_Link")
 		(at 224.79 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -3941,7 +4131,7 @@
 				)
 			)
 		)
-		(property "Value" "AudioJack3"
+		(property "Value" "USB-C link"
 			(at 222.38 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3951,7 +4141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Paikorea:AUDIO-SMD_PJ-320D-1"
+		(property "Footprint" "Paikorea:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 224.79 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3962,7 +4152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_SHOU-HAN-PJ-320D_C431535.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948"
 			(at 224.79 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3973,7 +4163,7 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+		(property "Description" "USB-C receptacle (USB 2.0) as half-to-half link"
 			(at 224.79 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3984,7 +4174,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
+		(property "Manufacturer" "Korean Hroparts Elec"
 			(at 224.79 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -3995,7 +4185,7 @@
 				)
 			)
 		)
-		(property "MPN" "PJ-320D"
+		(property "MPN" "TYPE-C-31-M-12"
 			(at 224.79 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4006,7 +4196,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C431535"
+		(property "LCSC Part" "C165948"
 			(at 224.79 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4017,17 +4207,56 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "f91516d9-3b7f-412d-abc1-1381f4ad396e")
+		(pin "A1"
+			(uuid "f6b265d4-6404-4727-bbb1-1aee0a0b500b")
 		)
-		(pin "3"
-			(uuid "06da2542-6e46-4f0f-885c-625f4b09497e")
+		(pin "A12"
+			(uuid "ad7f464b-58ec-429b-b77f-3e8d2895be37")
 		)
-		(pin "4"
-			(uuid "c98ab752-062d-4069-b37f-87b737333f0c")
+		(pin "B1"
+			(uuid "f72757c8-183b-4e82-834e-54ac523010dd")
 		)
-		(pin "2"
-			(uuid "0765b23e-62da-453b-ab34-ba6e0b236cc8")
+		(pin "B12"
+			(uuid "5e0351fa-3573-4d97-af9e-a898d08316af")
+		)
+		(pin "SH"
+			(uuid "e28ea6a5-459d-4cb3-b28d-7f189defc4ee")
+		)
+		(pin "A4"
+			(uuid "e212bca0-bb64-46cb-8591-4bb37aaafe3a")
+		)
+		(pin "A9"
+			(uuid "80ade7f6-c0b0-4632-858e-22d5a707022b")
+		)
+		(pin "B4"
+			(uuid "9bf19c22-1e35-43cd-b9ff-c78840f4bf35")
+		)
+		(pin "B9"
+			(uuid "924496be-d272-4c77-9c8e-700d0f942ce4")
+		)
+		(pin "A5"
+			(uuid "c7c7d979-b8d1-45d6-909c-75596bdbccb3")
+		)
+		(pin "B5"
+			(uuid "7952b802-3d30-4095-afaa-69fc947ee045")
+		)
+		(pin "A8"
+			(uuid "db0258c2-5291-49ba-9495-22227399e1b9")
+		)
+		(pin "B8"
+			(uuid "6156b47f-3f17-4f49-aa3c-c6382e3cf27d")
+		)
+		(pin "A6"
+			(uuid "e90b1247-56a1-4988-8286-729fb67040af")
+		)
+		(pin "A7"
+			(uuid "594e3ba3-f9e8-4c66-810f-f4264ccc6fb3")
+		)
+		(pin "B6"
+			(uuid "2498bf83-2d91-4d37-b01d-b54045bb4e1d")
+		)
+		(pin "B7"
+			(uuid "22130cd4-5694-41f0-af3a-07942dd28662")
 		)
 		(instances
 			(project "Paikorea"
@@ -4140,7 +4369,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 346.71 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4151,7 +4380,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 346.71 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -4296,7 +4525,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 333.375 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -4307,7 +4536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 333.375 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -4537,7 +4766,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 306.705 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -4548,7 +4777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 306.705 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -4697,7 +4926,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 346.71 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4708,7 +4937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 346.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4938,7 +5167,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 293.37 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4949,7 +5178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 293.37 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5017,7 +5246,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 320.04 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5028,7 +5257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 320.04 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5558,7 +5787,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 293.37 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -5569,7 +5798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 293.37 47.625 0)
 			(hide yes)
 			(show_name no)
@@ -5637,7 +5866,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 333.375 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5648,7 +5877,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 333.375 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5716,7 +5945,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 334.01 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5727,7 +5956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 334.01 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5937,7 +6166,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Paikorea:PJ-320D")
+		(lib_id "Paikorea:USB_C_Link")
 		(at 224.79 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -5958,7 +6187,7 @@
 				)
 			)
 		)
-		(property "Value" "AudioJack3"
+		(property "Value" "USB-C link"
 			(at 222.38 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5968,7 +6197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Paikorea:AUDIO-SMD_PJ-320D-1"
+		(property "Footprint" "Paikorea:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 224.79 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5979,7 +6208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Audio-Video-Connectors_SHOU-HAN-PJ-320D_C431535.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948"
 			(at 224.79 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5990,7 +6219,7 @@
 				)
 			)
 		)
-		(property "Description" "Audio Jack, 4 Poles (TRRS)"
+		(property "Description" "USB-C receptacle (USB 2.0) as half-to-half link"
 			(at 224.79 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6001,7 +6230,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
+		(property "Manufacturer" "Korean Hroparts Elec"
 			(at 224.79 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6012,7 +6241,7 @@
 				)
 			)
 		)
-		(property "MPN" "PJ-320D"
+		(property "MPN" "TYPE-C-31-M-12"
 			(at 224.79 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6023,7 +6252,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C431535"
+		(property "LCSC Part" "C165948"
 			(at 224.79 127 0)
 			(hide yes)
 			(show_name no)
@@ -6034,17 +6263,56 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "01793250-c1b4-46cb-ace5-abd35815a9f1")
+		(pin "A1"
+			(uuid "9e9b23c5-3b3f-48c2-b433-84af8e342541")
 		)
-		(pin "1"
-			(uuid "e19e8119-f151-43ae-a2d3-50fe1ea8c6ae")
+		(pin "A12"
+			(uuid "0aa3be3f-5902-46af-982d-3b6030ac4cbd")
 		)
-		(pin "3"
-			(uuid "26735dfe-dd9c-4be1-b105-94fbbe13c23f")
+		(pin "B1"
+			(uuid "0541ea64-6425-4d22-aa20-7e5102ba083b")
 		)
-		(pin "4"
-			(uuid "53f68d00-5ba8-430b-b21d-6ead2de8826d")
+		(pin "B12"
+			(uuid "4296b559-7774-49b8-9c9d-51dc46442be1")
+		)
+		(pin "SH"
+			(uuid "87da0c21-d801-42ce-9146-007f82dfc436")
+		)
+		(pin "A4"
+			(uuid "d58f9e34-7bf8-4b61-b2c2-4b8be5b05cf8")
+		)
+		(pin "A9"
+			(uuid "0737ffde-a2b9-4687-be26-4b415646a0d1")
+		)
+		(pin "B4"
+			(uuid "65561aa6-7c5c-44a2-b7eb-517af4b98dbe")
+		)
+		(pin "B9"
+			(uuid "5f83b64a-ac7b-4ae8-a7fe-8330905f129c")
+		)
+		(pin "A5"
+			(uuid "250c1322-2231-4847-8bc2-dfb28bfca03f")
+		)
+		(pin "B5"
+			(uuid "b11e73da-1e10-4222-86e5-c057cfb5329e")
+		)
+		(pin "A8"
+			(uuid "ddf0c0f3-239d-43b3-94c8-37a43582489e")
+		)
+		(pin "B8"
+			(uuid "b17b87db-cbd0-4292-a494-f106e86bf274")
+		)
+		(pin "A6"
+			(uuid "390712c0-43c6-4f61-a066-8455f16e7f46")
+		)
+		(pin "A7"
+			(uuid "76d3d7a0-13ef-4972-a59b-e01ada34891f")
+		)
+		(pin "B6"
+			(uuid "11f4c691-2e55-4cc8-8335-d904bfe043f9")
+		)
+		(pin "B7"
+			(uuid "04e1c757-bdb0-41d9-a4b8-32159e5595c4")
 		)
 		(instances
 			(project "Paikorea"
@@ -7334,7 +7602,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 346.71 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -7345,7 +7613,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 346.71 47.625 0)
 			(hide yes)
 			(show_name no)
@@ -7656,7 +7924,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 306.705 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7667,7 +7935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 306.705 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7887,7 +8155,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 333.375 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -7898,7 +8166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 333.375 47.625 0)
 			(hide yes)
 			(show_name no)
@@ -8041,7 +8309,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 320.04 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -8052,7 +8320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 320.04 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -8201,7 +8469,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 293.37 79.375 0)
 			(hide yes)
 			(show_name no)
@@ -8212,7 +8480,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 293.37 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -8280,7 +8548,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 320.04 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -8291,7 +8559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 320.04 47.625 0)
 			(hide yes)
 			(show_name no)
@@ -8359,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Value" "PG1316S"
+		(property "Value" "Choc_v1v2"
 			(at 306.705 55.245 0)
 			(hide yes)
 			(show_name no)
@@ -8370,7 +8638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DreaM117er-keebLibrary:SW_Kailh_PG1316S_1.00u_Dual2"
+		(property "Footprint" "Paikorea:SW_Choc_v1v2_HS_Reversible"
 			(at 306.705 47.625 0)
 			(hide yes)
 			(show_name no)
